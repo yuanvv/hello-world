@@ -1,4 +1,12 @@
-﻿body {
+import time, json, requests
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy import optimize
+
+plt.rcParams['font.sans-serif'] = ['FangSong']  # 设置默认字体
+plt.rcParams['axes.unicode_minus'] = False  # 解决保存图像时'-'显示为方块的问题
+
+body {
 }
 def fit_exp():
     """拟合"""
